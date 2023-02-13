@@ -1,0 +1,579 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    background-color: black;
+    font-family: 'Inter';
+}
+
+
+
+nav,button {
+    font-family: 'Charter';
+}
+
+#front {
+    background-image: url('../../utils/looggoo.png');
+    background-size: 50vw;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 100vw;
+    height: 97vh;
+    margin-top: -30px;
+
+
+}
+
+#text {
+font-family: 'Charter';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 52px;
+margin-top: 25%;
+margin-left: 20px;
+padding: 10px;
+background: transparent;
+}
+footer {
+    margin-top: 80%;
+}
+#navLeft {
+    margin-right: -60px;
+}
+
+/* div */
+#try{
+
+width: 100%;
+height: 21px;
+background:transparent;
+box-shadow: 0 6px 6px -6px #222;
+cursor: pointer;
+}
+
+/* Inside auto layout */
+#inside {
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+
+/* Introducing UBAX Beta release */
+#intro{
+background: transparent;
+font-weight: 500;
+
+position: absolute;
+width: 208px;
+height: 19px;
+left: calc(50% - 208px/2 - 75.84px);
+top: 1px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 19px;
+/* identical to box height, or 127% */
+display: flex;
+align-items: center;
+text-align: center;
+
+}
+
+
+
+/* Try ↗ Learn more▻ */
+#more{
+background: transparent;
+position: absolute;
+width: 136.12px;
+height: 21px;
+left: calc(50% - 136.12px/2 + 143.97px);
+top: 0px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 21px;
+/* identical to box height, or 140% */
+display: flex;
+align-items: center;
+text-align: center;
+}
+
+#copy {
+    left: 14px;
+top: 8.3px;
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 14.6667px;
+line-height: 20px;
+margin-top: 190px;
+display: flex;
+align-items: center;
+margin-left: 45px;
+color: #C0C0C0;
+/* margin-bottom: -100px; */
+}
+#copy > span {
+    color: #C0C0C0;
+}
+
+
+/* @media (min-width:320px)  { smartphones, iPhone, portrait 480x320 phones } */
+/* @media (min-width:481px)  { portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. } */
+/* @media (min-width:641px)  { portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones } */
+/* @media (min-width:961px)  { tablet, landscape iPad, lo-res laptops ands desktops } */
+/* @media (min-width:1025px) { big landscape tablets, laptops, and desktops } */
+/* @media (min-width:1281px) { hi-res laptops and desktops } */
+
+ @media only screen and (max-width: 600px) and (min-width: 414px) {
+
+    body {
+        font-family:'Courier New', Courier, monospace;
+    }
+    
+    #front {
+       width: 190vw;
+       height: 2900px;
+       background-size: 4252px 2200px;
+    background-image: url('../../utils/looggoo.png');
+        
+    }
+    .loogoXl {
+        display: none;
+    }
+    .loogoSm {
+        background: transparent;
+    }
+    nav {
+        position: absolute;
+        width: 1512px;
+        height: 92px;
+        left: 0px;
+        top: 0px;
+    }
+    #navLeft {
+        display: flex;
+        flex-direction: column;
+        margin-left: 300px;
+        margin-top: 40px;
+        font-size: 60px;
+    }
+
+    /* div */
+#try{
+
+    width: 100%;
+    height: 21px;
+    background:transparent;
+    box-shadow: 0 6px 6px -6px #222;
+    cursor: pointer;
+    }
+    
+    /* Inside auto layout */
+    #inside {
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+    
+    
+    /* Introducing UBAX Beta release */
+    #small{
+    background: transparent;
+    font-weight: 500;
+    
+    position: absolute;
+    width: 268px;
+    height: 19px;
+    left: calc(50% - 108px/2 - 75.84px);
+    top: 15px;
+    
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 9px;
+    /* identical to box height, or 127% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    }
+    
+    
+    
+    /* Try ↗ Learn more▻ */
+    #intro {
+        display: none;
+    }
+    #more{
+    display: none;
+    background: transparent;
+    position: absolute;
+    width: 136.12px;
+    height: 21px;
+    left: calc(50% - 186.12px/2 + 143.97px);
+    top: 0px;
+    
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 21px;
+    /* identical to box height, or 140% */
+    
+    }
+
+    #text {
+        font-size: 84px;
+        margin-top: 170vh;
+        width: 280vw;
+        margin-left: 100px;
+        background: transparent;
+    }
+    #button {
+        display: flex;
+        margin-left: 90px;
+        width: 290px;
+        height: 120px;
+        font-size: 66px;
+    }
+    footer {
+        position: absolute;
+width: 838px;
+height: 716px;
+left: calc(50% - 338px/2 - 0.5px);
+top: 1865px;
+        
+    }
+    #footer {
+        position: absolute;
+width: 1512px;
+height: 714px;
+left: 0px;
+top: 299px;
+display: grid;
+  grid-template-columns: auto auto;
+row-gap: 50px;
+font-size: 77px;
+    }
+    #footer1 {
+        height: 900px;
+        margin-bottom: 300px;
+    }
+    #footer2 {
+        height: 900px;
+        margin-bottom: 300px;
+    }
+    #footer3 {
+        height: 200px;
+    }
+    #footer4 {
+        height: 200px;
+    }
+#copy {
+    position: absolute;
+    top: 2400px;
+    font-size: 39px;
+    left: 90px;
+    width: 912px;
+}
+
+ }
+
+
+ @media screen and (min-device-width: 768px)
+ and (max-device-width: 1024px) {
+
+    nav,button {
+        font-family: 'Charter';
+    }
+    
+    #front {
+        background-image: url('../../utils/looggoo.png');
+        background-size: cover;
+        width: 120vw;
+        height: 100vh;
+        margin-top: -30px;
+    
+    
+    }
+    
+    #text {
+    font-family: 'Charter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    margin-top: 100%;
+    margin-left: 20px;
+    padding: 10px;
+    background: transparent;
+    }
+    footer {
+        margin-top: 180vw;
+    }
+    #navLeft {
+        margin-right: -60px;
+    }
+    
+    /* div */
+    #try{
+    
+    width: 100%;
+    height: 21px;
+    background:transparent;
+    box-shadow: 0 6px 6px -6px #222;
+    cursor: pointer;
+    }
+    
+    /* Inside auto layout */
+    #inside {
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+    
+    
+    /* Introducing UBAX Beta release */
+    #intro{
+    background: transparent;
+    font-weight: 500;
+    
+    position: absolute;
+    width: 208px;
+    height: 19px;
+    left: calc(50% - 208px/2 - 75.84px);
+    top: 1px;
+    
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height, or 127% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    }
+    
+    
+    
+    /* Try ↗ Learn more▻ */
+    #more{
+    background: transparent;
+    position: absolute;
+    width: 136.12px;
+    height: 21px;
+    left: calc(50% - 136.12px/2 + 143.97px);
+    top: 0px;
+    
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 21px;
+    /* identical to box height, or 140% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    }
+    
+    #copy {
+        left: 14px;
+    top: 8.3px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.6667px;
+    line-height: 20px;
+    margin-top: 190px;
+    display: flex;
+    align-items: center;
+    margin-left: 45px;
+    color: #C0C0C0;
+    /* margin-bottom: -100px; */
+    }
+    #copy > span {
+        color: #C0C0C0;
+    }
+    }
+
+
+
+
+@media (max-width: 480px) and (min-width: 320px) {
+
+    body {
+        font-family: 'Charter';
+    }
+    
+    #front {
+       width: 403vw;
+       height: 2100px;
+        background-repeat:no-repeat;
+        background-position: center;
+        background-size: 500vw;
+        background-image: url('../../utils/looggoo.png');
+        
+    }
+    .loogoXl {
+        display: none;
+    }
+    .loogoSm {
+        background: transparent;
+        position: absolute;
+        top: -80px;
+    }
+    nav {
+        position: absolute;
+        width: 100vw;
+        height: 92px;
+        left: 0px;
+        top: 0px;
+        font-size: 20px;
+    }
+    #navLeft {
+        display: flex;
+        flex-direction: column;
+        margin-left: 1300px;
+        margin-top: 80px;
+        font-size: 45px;
+        padding: 15px;
+    }
+
+    /* div */
+#try{
+
+    width: 100%;
+    height: 58px;
+    background: rgba(255, 255, 255, 0.075);
+    cursor: pointer;
+    }
+    
+    /* Inside auto layout */
+    #inside {
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+    
+    
+    /* Introducing UBAX Beta release */
+    #small{
+    background: transparent;
+    position: absolute;
+    padding: 20px;
+    font-weight: 500;
+    width: 608px;
+    height: 19px;
+    left: calc(50% - 190px/2 - 75.84px);
+    top: 15px;
+    
+    font-family: 'Helvetica';
+    font-style: normal;
+
+    font-size: 32px;
+    line-height: 9px;
+    /* identical to box height, or 127% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    }
+    
+    
+    
+    /* Try ↗ Learn more▻ */
+    #intro {
+        display: none;
+    }
+    #more{
+    display: none;
+    background: transparent;
+    position: absolute;
+    width: 156.12px;
+    height: 21px;
+    left: calc(50% - 186.12px/2 + 143.97px);
+    top: 0px;
+    
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 21px;
+    /* identical to box height, or 140% */
+    
+    }
+
+    #text {
+        font-size: 94px;
+        font-weight: 900;
+        margin-top: 230vh;
+        padding: 65px;
+        width: 380vw;
+        height: 390px;
+        margin-left: 20px;
+        line-height: 100px;
+        background: transparent;
+    }
+    #button {
+        display: flex;
+        font-weight: 900;
+        margin-left: 79px;
+        margin-top: 68px;
+        width: 350px;
+        height: 190px;
+        font-size: 66px;
+        padding: 50px;
+    }
+    footer {
+        position: absolute;
+width: 838px;
+height: 716px;
+left: calc(50% - 338px/2 - 0.5px);
+top: 2965px;
+        
+    }
+    #footer {
+        position: absolute;
+width: 1512px;
+height: 714px;
+left: 0px;
+top: 299px;
+display: grid;
+  grid-template-columns: auto auto;
+row-gap: 50px;
+font-size: 77px;
+    }
+    #footer1 {
+        height: 900px;
+        margin-bottom: 300px;
+    }
+    #footer2 {
+        height: 900px;
+        margin-bottom: 300px;
+    }
+    #footer3 {
+        height: 200px;
+    }
+    #footer4 {
+        height: 200px;
+    }
+#copy {
+    position: absolute;
+    top: 2400px;
+    font-size: 39px;
+    left: 90px;
+    width: 912px;
+}
+    
+}
