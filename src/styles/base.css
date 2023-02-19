@@ -144,7 +144,9 @@ a:focus {
 	margin: 0;
 	font-weight: 400;
 	line-height: 1;
+    color: white;
 }
+    
 
 .intro__hint {
 	position: relative;
