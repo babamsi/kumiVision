@@ -43,7 +43,7 @@ import Footer from '../components/Footer.astro';
 			  <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 lg:bg-transparent text-black p-4 lg:p-0 z-20" id="nav-content">
 				<ul class="list-reset lg:flex justify-end flex-1 items-center">
 				  <li class="mr-3">
-					<a class="inline-block py-2 px-4 text-white font-bold no-underline" href="#">UBAX</a>
+					<a class="inline-block py-2 px-4 text-white font-bold no-underline" href="/kumiVision/ubax">UBAX</a>
 				  </li>
 				  <li class="mr-3">
 					<a class="inline-block text-white no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#">RESEARCH</a>
@@ -84,7 +84,7 @@ import Footer from '../components/Footer.astro';
 			  </div>
 			  <!--Right Col-->
 			  <div class="w-full md:w-3/5 py-6 text-center pl-4">
-				<img class="w-full md:w-4/5 z-50" src="../utils/looggoo.png" />
+				<img class="w-full md:w-4/5 z-50" src={`${import.meta.env.PROD ? 'https://raw.githubusercontent.com/babamsi/kumiVision/master/utils/looggoo.png' : "../utils/looggoo.png"}` }  />
 			  </div>
 			</div>
 		  </div>
