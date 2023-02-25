@@ -13,7 +13,7 @@ import Footer from '../../components/Footer.astro';
 		<meta name="description" content="Animating SVG text on a path on scroll using the Intersection Observer API and SVG filters." />
 		<meta name="keywords" content="svg text, animation, scroll, svg filter, Intersection Observer" />
 		<meta name="author" content="Codrops" />
-		<link rel="shortcut icon" href="../../../utils/looggoo.png">
+		<link rel="shortcut icon" href={`${import.meta.env.PROD ? 'https://raw.githubusercontent.com/babamsi/kumiVision/master/utils/looggoo.png' : "../../../utils/looggoo.png"}` }>
 		<link rel="stylesheet" href="https://use.typekit.net/rhw1vur.css">
 		<!-- <link rel="stylesheet" type="text/css" href="../../styles/base.css" /> -->
 		<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
