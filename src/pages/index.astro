@@ -6,7 +6,7 @@ import Footer from '../components/Footer.astro';
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="../../utils/looggoo.png" />
+		<link rel="icon" type="image/svg+xml" href={`${import.meta.env.PROD ? 'https://raw.githubusercontent.com/babamsi/kumiVision/master/utils/looggoo.png' : "../utils/looggoo.png"}` } />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 		<meta name="viewport" content="width=device-width" />
